@@ -1,0 +1,450 @@
+/**
+Style Theme: Peachy
+Created: Oct 2015
+See Style Guide here: http://www.picaboo.com/styleguide/
+**/
+
+/** Links and Buttons **/
+
+a, a.green-link, .portfolio-filter a { color:#666650  }
+a, a.silken-pine-link, .portfolio-filter a { color:#4B5D59  }
+a:active { color:#666650 }
+a:hover, a.green-link:hover { color:#9b9b51 }
+a:hover, a.silken-pine-link:hover { color:#4B5D59 }
+/**a:visited { color:#666650} **/
+
+a.button, input.button, button, .support.flex-columns .flex-column a, input[type="submit"], #submit {
+    background: #678A79;
+    box-shadow: none;
+    text-align: center;
+}
+
+a.button:hover, input.button:hover, button:hover, .support.flex-columns .flex-column a:hover, .button-holiday:hover, input[type="submit"]:hover, #submit:hover {
+    background: #5b7467 !important;
+    color:#fff;
+    box-shadow: none;
+}
+
+a.button:visited, .support.flex-columns .flex-column a:visited {
+    color:#fff
+}
+
+a.button.photo-button {
+    box-shadow: none;
+}
+
+.button-darkteal {color: #21505a;}
+
+/** Primary Post Button Orange **/
+
+a.button.small-button-orange {
+    background: #f26b4f;
+    box-shadow: none;
+    text-align: center;
+}
+
+a.button.small-button-orange:hover {
+    background: #ef9072;
+    color:#fff;
+    box-shadow: none;
+}
+
+/** Secondary Post Button Grey **/
+
+a.button.small-button-grey {
+    background: grey;
+    box-shadow: none;
+    text-align: center;
+}
+
+a.button.small-button-grey:hover {
+    background: lightgray;
+    color:#fff;
+    box-shadow: none;
+}
+
+
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-highlight > a, .compressed-nav #megaMenu ul.megaMenu > li.menu-item > a, .account-menu a, #promo-ticker a, .sub-menu a  {
+    color: #4B5D59;
+}
+
+#megaMenu ul.megaMenu a {font-size: 1.2em}
+
+.compressed-nav #megaMenu ul.megaMenu > li.menu-item > a {font-weight:500;font-size: 1.2em}
+
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-highlight > a:hover {
+    background: #56c3bd !important;
+}
+
+#megaMenu ul li.menu-item.ss-nav-menu-mega ul ul.sub-menu li.menu-item > a, .compressed-nav #megaMenu ul.megaMenu > li.menu-item > a:hover, #promo-ticker a:hover {
+    color:#999;
+}
+
+#megaMenu ul li.menu-item.ss-nav-menu-mega ul ul.sub-menu li.menu-item > a:hover, #megaMenu ul li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item > a:hover {
+    color:#999;
+
+}
+
+.compressed-nav #megaMenu ul.megaMenu > li.menu-item.inspired-menu > a {color:#4B5D59;font-weight: 500;}
+
+#sign-in a:hover {color:#fff !important;}
+
+#sign-in .sub-menu a {color:#4B5D59}
+
+#sign-in .sub-menu a:hover {
+    color:#999 !important;
+}
+
+.products-link .sub-menu a:hover, .products-link a:hover, .open .ui-accordion .ui-accordion-header:hover {
+    color:#329e98
+}
+
+.idea-cat-thumb a {
+    color:#56c3bd !important;
+}
+
+.free-shipping-button a:visited {
+    color:#fff
+}
+
+.free-shipping-button a:hover {
+    color:#fff;
+}
+.free-shipping-button.fs100:hover, .free-shipping-button.fs150:hover {
+    background:#678A79
+}
+
+.tiles-header ul li a {
+    background: #f26b4f;
+}
+
+.load-more-button a {
+    background:#668978 !important;
+}
+
+#another:hover {
+    background:#5b7467 !important;
+}
+
+.product-filter-list a, .all-pricing-link, .occasion-menu a {
+    font-family: 'Inter' !important;
+    font-size: 1em !important;
+}
+
+a.large-link {
+    font-family: 'Inter' !important;
+    font-size: 2em;
+}
+
+.page-submenu li a.active, .page-submenu li a {
+    color: #4B5D59;
+}
+
+.page-submenu li a:hover {
+    background:#4B5D59;
+    border:1px solid #4B5D59;
+    color:#fff
+}
+
+.portfolio-filter a:hover {
+    background-color: #eeeeee !important;
+  }
+
+  .footer-lower a:visited, a.button-holiday {
+    color: #fff
+}
+
+
+#chooselink .button {
+    background: black;
+}
+
+#chooselink .button:hover {
+    background: #678A79;
+}
+
+.media-logos a {color:#4B5D59}
+
+.media-logos a:hover {color:#999}
+
+/** Headings **/
+
+h1, h2, h3, h4, h5, h6, .action-box h2 {
+    color:#4B5D59
+}
+
+h1, .hero-text h1 {
+    font-family: 'Inter';
+    font-weight:500;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+
+h2, .product h2, .theme-styles h3, .card-details h2.title, .card-details h2, .pricing-table-header h2, .page-careers h4, .page-terms h4, .page-privacy h4 {
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+h2.wedding-headers { font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+font-size: 40px;
+    color: #d34d28;
+}
+
+
+.sidebyside-details h2 {
+    font-family: 'Inter' !important;
+    font-size: 1.5em !important;
+    color:#4B5D59;
+}
+
+.pricing-product-name {
+    font-family: 'Inter';
+    color:#4B5D59;
+}
+
+.trust-column h2, .support-title, .tiles-content h2, .tiles-content ul, .about-cards h1, .feature h2 {
+    color:#4B5D59 !important;
+}
+
+.feature h2 {
+    font-size:1.2em;
+}
+
+.theme-pricing h2.price {
+    color:#4B5D59
+}
+
+
+h2.cc-h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+h4 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.support h3 {
+    background: #fff;
+    border:1px solid #e9e9e9
+}
+
+.support h4 {
+    background: #fff;
+}
+
+.ui-accordion .ui-accordion-header {
+    color:#000000;
+}
+
+.ui-accordion .ui-accordion-header:hover {
+    background:#000000;
+}
+
+.register-prompt .prompt-content h2:first-child {
+    font-family: 'Inter' !important;
+    font-size: 1em !important;
+    color:#56c3bd !important;
+}
+
+
+/** Tables **/
+.pricing-table th {
+    background: black;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+.highlight-cell {
+    background: #ffffff;
+}
+
+
+/** Other **/
+.light-background {background:#eeeeee}
+
+.product-pricing {
+    background: none;
+}
+
+.action-box {
+    box-shadow: none;
+}
+
+.product-size {
+    background: #56c3bd;
+}
+
+.product-copy-box-1 {
+    background: #56c3bd;
+}
+
+.top-promo {
+    background: none;
+   /* border:1px solid #ddd*/
+	/* commented as part of the redesign*/
+}
+
+select, input, textarea {
+    font-family: 'Inter';
+    font-style: normal;
+    border: 1px solid #ddd;
+    line-height: normal;
+}
+
+textarea {font-size: 1em}
+
+input::-webkit-input-placeholder {
+    color: #999;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+    color: #999;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+    color: #999;
+}
+
+input:-ms-input-placeholder {
+    color: #999;
+}
+
+.placeholder { color: #999; }
+
+
+/** Footer **/
+
+
+#footer {
+    background: #4B5D59;
+}
+
+
+/** Mobile **/
+
+.pushy, .pushy2 {
+    background: black;
+}
+
+.pushy a:visited, .pushy2 a:visited {
+    color:#fff
+}
+
+.pushy a:hover, .pushy2 a:hover {
+    color:black
+}
+
+@media only screen and (max-width: 768px) {
+    .page-heading h3 a {
+        color: #56c3bd !important;
+    }
+}
+
+.WeddingButton {
+    background-color:#21505a;
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:'Inter';
+    font-size:23px;
+    padding:12px 37px;
+    text-decoration:none;
+}
+.WeddingButton:hover {
+    background-color:#d34d28;
+}
+.WeddingButton:active {
+    position:relative;
+    top:1px;
+}
+
+
+a.button-global {
+	display:flex;
+    background: #668978;
+    border: 0px;
+    border-radius: 39px;
+    color: #F9F6F0;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    height: 52px;
+	text-align: center;
+	letter-spacing: -0.4px;
+    line-height: 32px;
+    padding: 0 20px;
+    width: 187px;
+	height:52px;
+	margin-top:15px;
+	padding:10px 26px;
+}
+a.button-global:hover {
+	color: #F9F6F0;
+	filter: brightness(.9) contrast(1.2);
+}
+a.button-global-cls {
+	display:flex;
+    background: #668978;
+    border: 0px;
+    border-radius: 39px;
+    color: #F9F6F0;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    height: 52px;
+	text-align: center;
+	letter-spacing: -0.4px;
+    line-height: 32px;
+    padding: 0 20px;
+	height:52px;
+	margin-top:15px;
+	padding:10px 26px;
+}
+a.button-global-cls:hover {
+	color: #F9F6F0;
+	filter: brightness(.9) contrast(1.2);
+}
+a.button-global-new{
+    background: #668978;
+    border: 0px;
+    border-radius: 39px;
+    color: #F9F6F0;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    height: 52px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    line-height: 32px;
+    margin-top: 15px;
+    padding: 17px 26px;
+}
+a.button-global-new:hover {
+	color: #F9F6F0;
+	filter: brightness(.9) contrast(1.2);
+}
+a.home-page-button:hover{
+	color: white;
+	text-decoration: underline;
+	background: #6c9c85;
+}
+a.home-cal-button:hover{
+	color: white;
+	text-decoration: underline;
+	background: #6c9c85;
+}
+
+.home-p-button:hover{
+	color: white;
+	border-radius: 39px !important;
+}
+
